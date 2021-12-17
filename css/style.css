@@ -55,3 +55,95 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+
+/*  CONTEÚDO  G E R A L  */
+
+.content{
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px);
+}
+
+.content h1, .content h2{
+    color: #006599;
+    margin-bottom: 30px;
+}
+
+.content h1{
+    font-size: 48px;
+}
+.content h2{
+    font-size: 35px;
+}
+
+section{
+    padding-left: 50px;
+}
+
+/*   B E M   V I N D O    */
+
+#bem-vindo{
+    padding-left: 0;
+}
+
+.bem-vindo-content{
+    padding-left: 50px;
+}
+
+#bem-vindo .banner{
+    height: 500px;
+    background-image: url(../img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#bem-vindo h1{
+    margin-top: 60px;
+}
+
+#bem-vindo::after, #sobre-empresa::after{
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.mini-banner{
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.descricao{
+    position: absolute;
+    left: 370px;
+    padding-right: 30px;
+}
+
+.descricao p{
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.bem-vindo-btn, form input[type="submit"]{
+    background-color: #006599;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+    transition: .5s;
+    display: block;
+    width: 100px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.bem-vindo-btn:hover, form input[type="submit"]:hover{
+    background-color: #2790c6;
+}
